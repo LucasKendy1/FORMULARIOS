@@ -60,7 +60,8 @@ a{
     color: white;
     position: relative;
 }
+
 #imglogo{
-    transform: scale(0.9);
-    
+    display: block;
+    margin: auto;
 }
