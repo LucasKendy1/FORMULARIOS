@@ -24,13 +24,43 @@ h1{
 p{
     color:#feb06a;
 }
-
-section>img{
-    color:#feb06a;
-    
-}
 section{
     width: fit-content;
     margin: auto;
-    background-color: rgba(0, 255, 255, 0.322);
+    text-align: center;
+}
+input#idemail,input#idsenha{
+    border-left: 1px solid #feb06a;
+    border-bottom: 1px solid #feb06a;
+    border-right: none;
+    border-top: none;
+    background-color: #30526a;
+    height: 50px;
+    color: white;
+    padding-left: 10px;
+}
+img#idimgsenha, img#idimguser{
+    transform: translateY(20px);
+    border-bottom: 1px solid #feb06a;
+}
+input#login{
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:#f25044;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    border: none;
+}
+a{
+    color: white;
+    position: relative;
+}
+#imglogo{
+    transform: scale(0.9);
+    
 }
