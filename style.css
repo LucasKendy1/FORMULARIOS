@@ -55,6 +55,7 @@ input#login{
     font-size: larger;
     font-weight: 700;
     border: none;
+    cursor: pointer;
 }
 a{
     color: white;
